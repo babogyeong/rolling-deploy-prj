@@ -19,10 +19,10 @@ public class AppController {
         return input;
     }
 
-    //@RequestMapping("/hello")
-    //public String hello() {
-    //    return "webhook test restart detach mode rolling deploy, !sleep 60, 3, 4 instance only";
-    //}
+    @RequestMapping("/hello")
+    public String hello() {
+        return "webhook test restart detach mode rolling deploy, !sleep 60, 3, 4 instance only";
+    }
 
     private String getMD5Digest(String input) throws NoSuchAlgorithmException {
         MessageDigest md = MessageDigest.getInstance("MD5");
