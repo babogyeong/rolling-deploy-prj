@@ -21,7 +21,7 @@ public class AppController {
 
     @RequestMapping("/hello")
     public String hello() {
-        return "webhoot restadmekfwlfhfho;fuaehufe;ffwp9efay, !sleep 60, 3, 4 instance only";
+        return "hellooooooooooooooooooo";
     }
 
     private String getMD5Digest(String input) throws NoSuchAlgorithmException {
