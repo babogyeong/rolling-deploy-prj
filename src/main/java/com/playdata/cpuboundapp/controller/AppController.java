@@ -19,7 +19,7 @@ public class AppController {
         return input;
     }
 
-    @RequestMapping("/hello")
+    //@RequestMapping("/hello")
     public String hello() {
         return "daegil is freeeeee:))))))))webhook good";
     }
